@@ -1,6 +1,6 @@
 def call(String ID,String image){
   withCredentials([usernamePassword(
-                    credentialsId: "$id",
+                    credentialsId: "$ID",
                     usernameVariable: "user",
                     passwordVariable: "pass"
                     
